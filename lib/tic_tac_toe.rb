@@ -127,9 +127,10 @@ end
 
 def play
   games = 1
-  while games < 10
+  while games < 9
     turn
     games +=1
+    puts games
   end
 end
 
